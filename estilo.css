@@ -1,0 +1,116 @@
+ #titulo {
+    color: rgb(229, 255, 0);
+    text-align: center;
+ }
+
+#visual1 {
+  background-color:rgb(63, 130, 255);
+ }
+
+.operacoes1 {
+  color:red;
+  
+  
+  
+  
+}
+
+.operacoes2 {
+    color: aqua;
+
+    
+    
+}
+
+.operacoes3 {
+    color: aqua;
+    
+    
+    
+}
+
+.operacoes4 {
+    color: aqua;
+    
+    
+    
+    
+}
+#resultado {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 277px;
+    height: 40px;
+    text-align: right;
+    position: relative;
+    cursor:auto;
+    right: 100px;
+    transform: translate(1cm, 1px);
+    font-size: 20px;
+    overflow: visible;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+
+    
+    
+}
+
+.estilo {
+    background-color: rgb(150, 214, 0);
+    padding: 70px;
+    position:relative;
+    top: 20px;
+    width: 152px;
+    right: 52px;
+    left: auto;
+    transform: translate(200%, 4%);
+    border-radius: 10px;
+}
+
+.botao {
+    height: 50px ;
+    width: 50px;
+    font-size: 20px;
+    margin: 2px;
+    transform: translate(2px,);
+    position: relative;
+    right: 70px;
+    cursor: pointer;
+    background-color: orangered;
+    color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.botao:hover {
+    background-color: rgb(158, 158, 158);
+    
+}
+
+.limpar {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    background-color: orange;
+    border-radius: 40px;
+    position: relative;
+    right: 70px;
+    cursor: pointer;
+}
+
+.resultado {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    position: absolute;
+    top: 312px;
+    background-color: rgb(255, 255, 16);
+    border: none;
+    font-size: 40px ;
+     cursor: pointer;
+    right: 185px;
+    transform: translate(1px,75px);
+}
